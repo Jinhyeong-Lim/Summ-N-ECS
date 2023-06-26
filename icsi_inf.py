@@ -306,7 +306,7 @@ def main():
                     ss_pred['text'] = final_predictions
                     ss_pred['summary'] = suma
 
-                    output_prediction_file ="/tmp/pycharm_project/Summ-N/icsi/summn/coarse_summary/" + f"{data_type}.csv"
+                    output_prediction_file ="/tmp/pycharm_project/Summ-N/icsi/rouge12L/coarse_summary/" + f"{data_type}.csv"
                     ss_pred.to_csv(output_prediction_file, index=True)
 
 

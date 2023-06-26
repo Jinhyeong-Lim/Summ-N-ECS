@@ -2,20 +2,16 @@
 Source code paper **Improving Multi-Stage Long Document Summarization with Enhanced Coarse Summarizer**
 
 
-## Dependency
+### Dependency
 - We use python==3.10.8, pytorch==1.13.1, transformers==4.25.1 and evaluate==0.4.0
 
-## Folder Structure
+### Folder Structure
 
 - configure: the running configures for each dataset, such as number of stages, beam width etc.
 - dataset_loader: the python scripts to convert original dataset to the uniform format.
 - models: model
   - data_segment: including source and target segmentation code;
 - utils: utilities such as config parser & dataset reader etc.
-
-
-## Training and Evaluation
-
 
 ### Download the Datasets and Models
 - Download link for AMI & ICSI can be found at https://github.com/microsoft/HMNet

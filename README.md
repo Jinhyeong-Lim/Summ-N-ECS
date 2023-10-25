@@ -1,6 +1,5 @@
 # Summ-N-ECS
-Source code paper **Improving Multi-Stage Long Document Summarization with Enhanced Coarse Summarizer**
-
+Source code for EMNLP 2023 Workshop paper **Improving Multi-Stage Long Document Summarization with Enhanced Coarse Summarizer**
 
 ### Dependency
 - We use python==3.10.8, pytorch==1.13.1, transformers==4.25.1 and evaluate==0.4.0
